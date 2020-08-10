@@ -180,11 +180,13 @@ body {
   text-decoration: none;
 }
 
-.contacts-link:focus,
-.contacts-link:hover,
-.contacts-link:active {
+.contacts-link:hover {
   color: var(--accent-color);
 }
+.mail-icon:hover {
+  fill: var(--accent-color);
+}
+
 .portfolio-link {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
@@ -214,9 +216,6 @@ body {
   background-color: var(--backround-light);
   margin-bottom: 30px;
 }
-/*.advantage-lokator:hover {
-  border: 1px solid var(--main-color);
-}*/
 
 .advantage-clock:before {
   content: " ";
