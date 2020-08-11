@@ -17,6 +17,7 @@ html {
   --semilight-color: #f5f4fa;
   --light-color: #ffffff;
   --backround-light: #f5f4fa;
+  --border-color: #ececec;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -33,6 +34,7 @@ body {
 }
 .page-header {
   padding: 30px 0 30px 30px;
+  border: 1px solid var(--border-color);
 }
 .flexbox {
   display: flex;
@@ -179,7 +181,9 @@ body {
   color: var(--main-color);
   text-decoration: none;
 }
-
+.mail-icon {
+  margin-right: 10px;
+}
 .contacts-link:hover {
   color: var(--accent-color);
 }
@@ -277,9 +281,9 @@ body {
 
 .teammembers-box {
   width: 272px;
-  border: 1px solid var(--main-color);
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: var(--light-color);
+  box-shadow: 0px 1px 2px 1px;
 }
 .works-box {
   width: 370px;
